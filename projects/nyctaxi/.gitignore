@@ -130,7 +130,3 @@ dmypy.json
 
 # VS Code
 .markdownlint.json
-.vscode/
-
-# macOS
-.DS_Store

@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+cryptography = "*"
+databricks-cli = "*"
+mlflow-skinny = "*"
+numpy = "*"
+pandas = "*"
+pyyaml = "*"
+scikit-learn = "*"
+scipy = "*"
+xgboost = "*"
+
+[dev-packages]
+pyspark = "*"
+pyarrow = "*"
+pytest = "*"
+flake8 = "*"
+flake8-import-order = "*"
+black = "*"
+
+[requires]
+python_version = "3.10"
+
+[pipenv]
+allow_prereleases = true
